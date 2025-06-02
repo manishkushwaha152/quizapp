@@ -1,0 +1,64 @@
+.container ol li{
+    font-size: 1.4em;
+    color: #cecece;
+}
+
+.start{
+    display: flex;
+    justify-content: center;
+    padding-top: 2em;
+}
+
+.start .btn{
+    padding: .2em 1.7em;
+    border: none;
+    border-radius: .1em;
+    font-size: 1.2em;
+    color: #202020;
+    text-decoration: none;
+    background-color: #faff5a;
+}
+
+#form{
+    display: flex;
+    flex-direction: column; /* Stack inputs vertically */
+    align-items: center; /* Center inputs horizontally */
+    gap: 15px; /* Space between inputs */
+    margin-top: 4em;
+    width: 100%;
+}
+
+#form .userid, 
+#form .password {
+    padding: 0.7em 2em;
+    width: 50%;
+    border: none;
+    border-radius: 3px;
+    font-size: 1em;
+}
+
+.confirmation {
+    margin: 20px 0;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+
+.confirmation label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    color: white; /* Add this line to make text white */
+}
+
+.confirmation input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+}
+
+button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+    
